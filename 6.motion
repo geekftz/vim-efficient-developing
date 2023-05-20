@@ -1,0 +1,17 @@
+i(inner) vs a(around)
+
+"foo"
+i" --> foo 
+a" --> "foo"
+
+ foo bar
+iw --> foo
+aw --> { }foo
+
+(foo)
+i( --> foo
+a( --> (foo)
+
+if (a == 1) {
+}
+

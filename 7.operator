@@ -1,0 +1,12 @@
+d(delete): delete
+c(change): modify(delete and enter insert mode)
+y(yank): copy
+v(visual): select and enter visual mode
+u(undo): undo
+
+dd: delete current line
+cc: delete current line and enter insert mode
+yy: copy current line
+p: paste the copied content
+
+

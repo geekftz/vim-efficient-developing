@@ -1,0 +1,45 @@
+vim has 4 modes
+
+1. normal mode
+2. insert mode
+3. visual mode
+4. command mode (:)
+
+
+
+normal mode to insert mode
+
+i: insert before cursor
+I: insert before start of line
+a: insert after cursor
+A: insert after end of line
+o: insert in next line
+O: insert in previous line
+
+
+
+insert mode to normal mode
+
+press "esc"
+
+
+
+normal mode to visual mode
+
+press "v"
+
+
+
+visual mode to normal mode
+1. press "esc"
+2. press "v"
+
+
+normal mode to command mode
+
+press ":"
+
+
+command mode to normal mode
+
+press "esc"

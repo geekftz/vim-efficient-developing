@@ -1,0 +1,59 @@
+1. modify "HelloWorld" (ciw)
+
+name: "HelloWorld" --> name: ""
+
+
+2. modify Generics (ci<)
+
+const count = ref<number>(0) --> const count = ref<>(0)
+
+3. delete Generics (di<)
+
+
+4. delete return value (di{ or diB)
+
+return {
+  flag,
+	time,
+	id
+}
+
+
+5. delete the content in parentheses (di( or dib)
+
+console.log("foo")
+
+
+6. delete or modify the content in brackets (di[ ci[)
+
+const arr = [1, 2, 3, 4, 5]
+
+
+7. delete or modify the content in the template string (di` ci`)
+
+
+8. delete multiple lines
+
+2dd
+
+
+9. delete to, modify to, copy to ${char}
+
+demo: (do operation to character s)
+
+this is a new thing
+
+--> press "d" or "c" or "y" + 'f' + ${char}
+
+
+10. delete to, modify to, copy to the start/end of line
+
+--> press "d" or "c" or "y" + "^" or "$"
+
+
+11. delete entire file codes (die cie yie)
+
+
+12. delete, modify, copy tag (dit cit yit)
+
+<div>123</div> --> <div></div>

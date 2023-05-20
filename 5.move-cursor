@@ -1,0 +1,40 @@
+move cursor(only in normal mode)
+
+h: left
+j: down
+k: up
+l: right
+
+
+
+yaw vs yim
+1. yaw: copy a word
+2. yiw copy a word (but not contain the blank after the word)
+
+
+
+previous current next
+
+w: jump to the start of word
+b: jump to the start of current word or start of previous word
+e: jump to the end of current word or end of previous word 
+ge: jump to the end of previous word
+
+
+
+  this is a line
+
+0: jump to the start of line
+^: jump to the first non-null character from the beginning of the line
+$: jump to the end of line
+gg: jump to the first line
+G: jump to the last line
+
+
+
+f{char}: move cursor to next {char} 's position
+F{char}: move cursor to previous {char} 's position
+t{char}: move cursor to the position of the previous character of the next {char} 
+T{char}: move cursor to the position of the next character of the previous {char}
+;: repeat the last character lookup operation (forward direction)
+,: repeat the last character lookup operation (reverse direction)
