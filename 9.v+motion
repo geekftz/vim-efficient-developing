@@ -1,0 +1,10 @@
+use "v" + "iw" or "aw" or "ib" + "iB" and ...
+
+
+const foo = "bar"
+
+
+const obj = {
+        name: 'panda',
+        age: 5
+}

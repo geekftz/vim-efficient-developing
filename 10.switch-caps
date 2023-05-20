@@ -1,0 +1,17 @@
+~: switch the caps of cursor word
+3~: switch the caps of 3 words from the beginning of the cursor
+g~~: switch the caps of current line
+gUU: switch the caps of current line to uppercase
+guu: switch the caps of current line to lowercase
+gUaw(gUiw): switch the words of cursor to uppercase
+guaw(guiw): switch the words of cursor to lowercase 
+
+
+const funcName = "doSomething"
+
+
+in visual mode:
+
+1. press "v"
+2. select the words
+3. press "u" or "U" to switch the caps of selection
