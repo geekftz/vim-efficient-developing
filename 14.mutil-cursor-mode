@@ -1,0 +1,10 @@
+test test test
+
+gb: select current words
+
+<word></word>
+
+word
+
+gbc: select two words and change
+gbgbI: select two words and into insert mode in the beginning of every word
