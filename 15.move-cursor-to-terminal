@@ -1,0 +1,8 @@
+1. press "ctrl" + "`";
+
+2. add config in setting.json
+{
+  "before": ["<leader>", "t"],
+  "commands": ["workbench.action.terminal.focus"]
+}
+

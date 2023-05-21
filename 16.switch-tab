@@ -1,0 +1,11 @@
+:tabn: switch to next tab
+:tabp: switch to previous tab
+
+{
+  "before": ["t", "h"],
+  "commands": [":tabp"]
+},
+{
+  "before": ["t", "l"],
+  "commands": [":tabn"]
+},
