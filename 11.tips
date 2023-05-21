@@ -1,0 +1,16 @@
+gd: go to definition of cursor
+gh: show help of cursor
+gt: switch to the next tab
+gT: switch to the previous tab
+{num}gt: switch to the {num} index of tabs (forward direction)
+{num}gT: switch to the {num} index of tabs (reverse direction)
+
+cmd + 0: move the cursor to left files bar
+cmd + 1: move the cursor to 1st tab
+cmd + {num}: move the cursor to numth of tabs
+
+l: move the cursor to the target file, open file and move cursor to file content
+
+function test() {
+  console.log(123)
+}

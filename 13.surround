@@ -1,0 +1,15 @@
+"test"
+
+cs{char}{to-char} --> cs"' --> 'test'
+  if {to-char} is "[" --> [ test ]
+  if {to-char} is "]" --> [test]
+
+ds{char} --> ds" --> test
+cs{char}t --> press tag (like press "div>") --> <div>test</div>
+
+
+
+test
+
+ysaw<: add surround tag
+ysaw>: add single tag
